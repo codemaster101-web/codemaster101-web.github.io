@@ -1,0 +1,73 @@
+html {
+  background: gray;
+}
+
+.body {
+  margin: 0;
+  font-family: monospace;
+}
+
+.header {
+  background: blue;
+}
+
+.header-stuff {
+  display: flex;
+  align-items: center;
+  height: 62px;
+  width: 100%;
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  background: darkgrey;
+}
+
+.header-left {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.link {
+  display: inline-block;
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.square {
+  width: 9500px;
+  height: 35px;
+  background: #2196F3
+
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+}
+
+.name {
+  padding: 8px;
+}
+
+.nitrogenhyrdide {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 975px;
+  margin-left: auto;
+  margin-right: auto;
+}
